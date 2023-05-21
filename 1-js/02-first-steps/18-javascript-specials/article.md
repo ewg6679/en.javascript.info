@@ -150,7 +150,7 @@ Conditional
 : The only operator with three parameters: `cond ? resultA : resultB`. If `cond` is truthy, returns `resultA`, otherwise `resultB`.
 
 Logical operators
-: Logical AND `&&` and OR `||` perform short-circuit evaluation and then return the value where it stopped (not necessary `true`/`false`). Logical NOT `!` converts the operand to boolean type and returns the inverse value.
+: Logical AND `&&` and OR `||` perform short-circuit evaluation and then return the value where it stopped (not necessarily `true`/`false`). Logical NOT `!` converts the operand to boolean type and returns the inverse value.
 
 Nullish coalescing operator
 : The `??` operator provides a way to choose a defined value from a list of variables. The result of `a ?? b` is `a` unless it's `null/undefined`, then `b`.
@@ -198,7 +198,7 @@ More in: <info:operators>, <info:comparison>, <info:logical-operators>, <info:nu
     ```
 
 - The variable declared in `for(let...)` loop is visible only inside the loop. But we can also omit `let` and reuse an existing variable.
-- Directives `break/continue` allow to exit the whole loop/current iteration. Use labels to break nested loops.
+- Directives `break/continue` allow us to exit the whole loop/current iteration. Use labels to break nested loops.
 
 Details in: <info:while-for>.
 
