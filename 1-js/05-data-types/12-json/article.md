@@ -76,7 +76,7 @@ Please note that a JSON-encoded object has several important differences from th
 
 `JSON.stringify` can be applied to primitives as well.
 
-JSON supports following data types:
+JSON supports the following data types:
 
 - Objects `{ ... }`
 - Arrays `[ ... ]`
@@ -100,7 +100,7 @@ alert( JSON.stringify(true) ); // true
 alert( JSON.stringify([1, 2, 3]) ); // [1,2,3]
 ```
 
-JSON is data-only language-independent specification, so some JavaScript-specific object properties are skipped by `JSON.stringify`.
+JSON is a data-only language-independent specification, so some JavaScript-specific object properties are skipped by `JSON.stringify`.
 
 Namely:
 
@@ -466,7 +466,7 @@ It looks like this:
 let str = '{"title":"Conference","date":"2017-11-30T12:00:00.000Z"}';
 ```
 
-...And now we need to *deserialize* it, to turn back into JavaScript object.
+...And now we need to *deserialize* it, to turn it back into a JavaScript object.
 
 Let's do it by calling `JSON.parse`:
 
